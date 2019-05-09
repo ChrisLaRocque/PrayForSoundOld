@@ -2,16 +2,6 @@
 <html lang="en">
   <head>
      
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA--1"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA--1');
-    </script>
-
     <title>Pray For Sound</title>
     <meta property="og:title" content="Pray For Sound" />
     <link rel="icon" type="image/png" href="/assets/img/vinyl.png">
@@ -36,55 +26,38 @@
   <body>
     
     <!--Nav-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand" href="#"><h4>PRAY FOR SOUND</h4></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#music">MUSIC</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">MERCH</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">SHOWS</a>
-                </li>
-            </ul>
-            <ul class="nav navbar-nav ml-auto">
-                    <a href="#" class="nav-link"><i class="fa fa-instagram fa-lg dark"></i></a>
-                <li>
-                    <a href="#" class="nav-link"><i class="fa fa-facebook fa-lg dark"></i></a>
-                <li>
-                    <a href="#" class="nav-link"><i class="fa fa-twitter fa-lg dark"></i></a>
-                </li>
-                <li>
-                    <a href="#" class="nav-link"><i class="fa fa-envelope fa-lg dark"></i></a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    
+    <div id="navbar-frame"></div>
 
-    <!--Footer-->
-    <section id="footer">
-        <div class="container">
-            <div class="row">
-                <a href="https://www.facebook.com/pitypattern/" class="mx-auto fa fa-facebook light"></a>
-                <a href="https://www.instagram.com/pitypattern/" class="mx-auto fa fa-instagram light"></a>
-                <a href="https://twitter.com/pitypattern" class="mx-auto fa fa-twitter light"></a>
-                <a href="mailto:pitypattern@gmail.com" class="mx-auto fa fa-envelope light"></a>
+    <!--Video Header-->
+    <header>
+        <div class="overlay"></div>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4">
+        </video>
+        <div class="container h-100">
+            <div class="d-flex h-100 text-center align-items-center">
+            <div class="w-100 text-white">
+                <h1 class="display-3">WAVES</h1>
+                <h3 class="lead mb-0">Out November 15</h3>
             </div>
-            <div class="row">
-                <p class="mx-auto"><strong>&copy;2018 Pray For Sound</strong></p>
             </div>
         </div>
+    </header>
+
+    <!--Video Header-->
+    <section id="top">
+    <h1>Header 1</h1>
+    <h2>Header 2</h2>
+    <h3>Header 3</h3>
+    <h4>Header 4</h4>
+    <h5>Header 5</h5>
+    <p>Paragraph</p>
+    <a href="#"><button class="light">BTN-LIGHT</button></a>
+    <a href="#"><button class="dark">BTN-DARK</button></a>
     </section>
+    
+    <!--Footer-->
+    <div id="footer-frame"></div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -92,7 +65,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     
-   <!--Links Main Scripts-->
+    <!-- I need to load jQuery again?-->
+    <script src="//code.jquery.com/jquery.min.js"></script>
+
+    <!--Links Main Scripts-->
     <script type="text/javascript" src="js/main.js"></script>
+
   </body>
 </html>
