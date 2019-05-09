@@ -24,7 +24,15 @@ button {
     font-weight: 700;
     border-width: 2px;
 }
-
+hr {
+    border: none;
+    height: 2px;
+    color: white; /* old IE */
+    background-color: white; /* Modern Browsers */
+}
+.abril {
+    font-family: abril-text,serif;
+}
 
 /* Light/Dark Classes */
 .light {
