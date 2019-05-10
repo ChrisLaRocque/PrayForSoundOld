@@ -6,7 +6,7 @@ header {
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
-    margin: 5.2vh 0;
+    margin: 5.2vh 0 3vh;
 }
 
 header video {
