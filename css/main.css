@@ -9,6 +9,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     font-family: bc-alphapipe, sans-serif;
+    padding-top: 56px;
 }
 section {
     margin: 4vh 2vh;
@@ -53,6 +54,7 @@ hr {
     font-family: abril-text,serif;
 }
 
+
 /* Light/Dark Classes */
 .light {
     color: white;
@@ -80,6 +82,13 @@ hr {
     }
     .fa {
         font-size: 4.5vh;
+    }
+    section {
+        padding: 3vh 2vh;
+    }
+    .btn {
+        width: 100%;
+        font-size: 3vh;
     }
 } 
 
