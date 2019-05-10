@@ -38,6 +38,6 @@ font-size: 10vh;
 }
 @media only screen and (max-width: 400px) {
     .card i {
-      top: 21%;
+      top: 25%;
     }
 }
