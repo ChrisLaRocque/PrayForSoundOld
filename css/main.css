@@ -23,6 +23,8 @@ h1, h2, h3 {
     text-transform: uppercase;
     font-weight: 400;
 }
+
+/* Nav */
 nav {
     overflow: hidden;
 }
@@ -30,6 +32,12 @@ img.stripes {
     margin: -33vh 0 -31vh -4vh;
     transform: rotate(.275turn);
     height: 28vh;
+}
+i.fa.dark {
+    margin: 0vh 1vh;
+}
+.nav-icons {
+    margin-left: auto;
 }
 button {
     background-color: transparent;
@@ -72,9 +80,18 @@ hr {
 }
 
 /* Media Queries */
+
+/* Point where nav collapses */
 @media only screen and (max-width: 991px) {
     img.stripes {
         display: none;
+    }
+    .nav-icons {
+        margin: 1vh auto;
+        text-align: center;
+    }
+    .nav-icons a {
+        width: 25%;
     }
 }
 
@@ -94,6 +111,9 @@ hr {
     .btn {
         width: 100%;
         font-size: 3vh;
+    }
+    .footer-icons {
+    width: 100%;
     }
 } 
 
