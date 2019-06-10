@@ -5,18 +5,33 @@ html {
 
 body {
     color: white;
-    /*background: url('../assets/img/site-bg.png');*/
-    background-color: #311b57;
+    background-color: black;
+    /* background: url('../assets/img/site-bg.png'); */
+    /* background-color: #311b57; */
     background-size: cover;
     background-repeat: no-repeat;
     font-family: bc-alphapipe, sans-serif;
     padding-top: 56px;
 }
 section {
-    margin: 4vh 2vh;
-    padding: 5vh;
-    background: rgba(255,255,255, .5);
-    border-radius: 4px;
+    margin: 0;
+    padding: 15vh 1vh;
+}
+section#music {
+    background: rgb(255,163,0);
+    background: linear-gradient(180deg, rgba(255,163,0,1) 0%, rgba(255,107,0,1) 100%);
+}
+section#video {
+    background: rgb(255,107,0);
+    background: linear-gradient(180deg, rgba(255,107,0,1) 0%, rgba(255,80,0,1) 100%);
+}
+section#merch {
+    background: rgb(255,80,0);
+    background: linear-gradient(180deg, rgba(255,80,0,1) 0%, rgba(142,82,82,1) 100%);
+}
+section#shows {
+    background: rgb(142,82,82);
+    background: linear-gradient(180deg, rgba(142,82,82,1) 0%, rgba(78,43,27,1) 100%);
 }
 
 h1, h2, h3 {
@@ -92,6 +107,9 @@ hr {
     }
     .nav-icons a {
         width: 25%;
+    }
+    .navbar-brand {
+        font-size: 3.25vh;
     }
 }
 
